@@ -1,0 +1,42 @@
+body{
+  background-color: paleturquoise;
+}
+
+.attemp{
+    width: 60vw;
+    height: 300px;
+    align-items: center;
+    margin: auto;
+    margin-top: 20vh;
+    border: 2px solid black;
+    text-align: center;
+background-color: chartreuse;
+    box-shadow: 5px 10px 5px gray;
+}
+
+h1{
+    text-align: center;
+
+}
+button{
+    position: relative;
+    justify-content: center;
+    width: 100px;
+    color: white;
+    height: 30px;
+    box-shadow: 5px 5px 5px royalblue;
+    background-color: dodgerblue;
+}
+/* button:hover{
+    margin-left: -200px;
+} */
+@media (max-width:900px){
+    .attemp{
+        width: 95vw;
+        align-items: center;
+        margin: auto;
+        margin-top: 20vh;
+        border: 2px solid black;
+        text-align: center;
+    }
+}

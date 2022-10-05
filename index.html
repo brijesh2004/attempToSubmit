@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATTEMTING THE SUBMIT BUTTON</title>
+    <script>
+    
+    function hover(){
+        let btn = document.getElementById("btn");
+        btn.style.marginLeft="-400px";
+    }
+    function out(){
+        let btn = document.getElementById("btn");
+        btn.style.marginLeft="0";
+    }
+
+
+    </script>
+</head>
+<body>
+  
+    <div class="attemp">
+    <h1>Can You Submit The Button </h1>
+   Name <input type="text">  <br><br>
+   Age <input type="number"><br><br>
+   Email <input type="email"><br><br>
+   <button id="btn" onmouseover="hover()" onmouseout="out()"> Submit</button>
+
+</div>
+</body>
+</html>
